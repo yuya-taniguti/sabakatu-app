@@ -1,0 +1,2 @@
+module SabakatuHelper
+end
