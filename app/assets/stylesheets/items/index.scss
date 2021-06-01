@@ -8,8 +8,9 @@ a {
 
 /* 画面上部の「人生を変えるフリマアプリ」帯部分 */
 .title-contents {
+  height: 60vw;
   width: 100vw;
-  background-image: image-url('furima-header01.png');
+  background-image: image-url('header.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -18,17 +19,17 @@ a {
   align-items: flex-start;
   justify-content: center;
   padding: 5vh 15vw;
-  color: #fff;
+  color: rgb(163, 154, 154);
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
 }
 
 .service-title {
-  font-size: 8vh;
+  font-size: 10vh;
 }
 
 .service-explain {
-  font-size: 2.5vh;
-  line-height: 40px;
+  font-size: 50px;
+  line-height: 100px;
 }
 
 .store-btn {
@@ -36,14 +37,6 @@ a {
   margin-top: 24px;
 }
 
-.apple-btn {
-  margin-right: 1vw;
-  height: 9vh;
-}
-
-.google-btn {
-  height: 9vh;
-}
 
 /* //画面上部の「人生を変えるフリマアプリ」帯部分 */
 
