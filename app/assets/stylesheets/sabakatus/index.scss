@@ -3,14 +3,16 @@ a {
 }
 
 .main {
-  background: #f8f8f8;
+  background-image: image-url('meisai.jpeg');
 }
 
-/* 画面上部の「人生を変えるフリマアプリ」帯部分 */
+/* 画面上部の「sabakatuアプリ」帯部分 */
 .title-contents {
-  height: 60vw;
+  height: 55vw;
   width: 100vw;
   background-image: image-url('header.png');
+  background-size: contain;
+  position: relative;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -24,19 +26,35 @@ a {
 }
 
 .service-title {
-  font-size: 10vh;
+  font-size: 5vh;
+  position: absolute;
+  top: 20vh;
+  left: 30vh;
+}
+
+.service-subtitle {
+  font-size: 20vh;
+  display: block;
+  position: absolute;
+  top: 30vh;
+  left: 30vh; 
 }
 
 .service-explain {
-  font-size: 50px;
-  line-height: 100px;
+  font-size: 10vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  bottom: 20vh;
+  left: 33vh;
+  color: rgb(154, 192, 151);
 }
 
 .store-btn {
   display: flex;
   margin-top: 24px;
 }
-
 
 /* //画面上部の「人生を変えるフリマアプリ」帯部分 */
 
@@ -47,15 +65,16 @@ a {
 
 .select-reason-contents>.title {
   text-align: center;
-  font-size: 3.5vh;
+  font-size: 5vw;
   font-weight: bold;
-  margin-bottom: 5vh;
+  margin-bottom: 7vh;
   position: relative;
+  color: rgb(255, 255, 255);
 }
 
 .select-reason-contents>.title::after {
   content: '';
-  width: 70px;
+  width: 300px;
   height: 4px;
   background-color: #3ccace;
   position: absolute;
@@ -80,26 +99,30 @@ a {
 
 .list-pict {
   margin-bottom: 20px;
-  width: 100%;
+  height: 50%;
+  width: 80%;
+  border-radius: 50px;
 }
 
 .reason-list-number {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 10;
   width: 60px;
   height: 60px;
   font-size: 30px;
   text-align: center;
   line-height: 60px;
-  background-color: #3ccace;
-  color: #fff;
+  background-color: #081213;
+  color: rgb(255, 255, 255);
+  border-radius: 50px;
 }
 
 .reason-list-text {
   font-weight: bold;
   font-size: 24px;
   line-height: 50px;
+  color: rgb(255, 255, 255);
 }
 
 .reason-list-blue-text {
@@ -116,8 +139,9 @@ a {
 
 /* 画面中央の「会員数日本一位」帯部分*/
 .ad-contents {
-  width: 100vw;
-  background-image: image-url('furima-header02.png');
+  height: 90vh;
+  width: auto;
+  background-image: image-url('syoukai.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -140,33 +164,20 @@ a {
   line-height: 30px;
 }
 
-.store-btn {
-  display: flex;
-  margin-top: 24px;
-}
-
-.apple-btn {
-  margin-right: 1vw;
-  height: 9vh;
-}
-
-.google-btn {
-  height: 9vh;
-}
-
 /* //画面中央の「会員数日本一位」帯部分 */
 
 /* FURIMAの特徴 */
 .feature-contents {
-  padding: 5vh 15vw;
+  padding: 13vh 12vw;
 }
 
 .feature-contents>.title {
   text-align: center;
-  font-size: 3.5vh;
+  font-size: 8vh;
   font-weight: bold;
   margin-bottom: 5vh;
   position: relative;
+  color: rgb(67, 196, 89);
 }
 
 .feature-contents>.title::after {
@@ -187,7 +198,8 @@ a {
 }
 
 .feature-lists>.list {
-  width: 33vh;
+  height: 20vw;
+  width: 30vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -197,11 +209,13 @@ a {
   font-weight: bold;
   font-size: 22px;
   line-height: 50px;
+  color: rgb(248, 245, 245);
 }
 
 .feature-list-description {
-  font-size: 18px;
+  font-size: 20px;
   margin-top: 20px;
+  color: rgb(18, 218, 245);
 }
 
 /* //FURIMAの特徴 */
