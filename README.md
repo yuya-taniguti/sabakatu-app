@@ -15,6 +15,22 @@
 - has_many :rooms, through: room_users
 - has_many :messages 
 - has_many :Photos
+- has_one  :profile
+
+## profiles テーブル
+
+| Column   | Type       | Options                        |
+| -------- | ---------- | ------------------------------ |
+| area_id  | integer    |                                |
+| field    | string     |                                |
+| history  | string     |                                |
+| gun      | string     |                                |
+| user     | references | null: false, foreign_key: true |
+
+
+### Association
+
+- belongs_to :user
 
 ## rooms テーブル
 

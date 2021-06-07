@@ -4,6 +4,8 @@ a {
 
 .main {
   background-image: image-url('meisai.jpeg');
+  background-color:rgba(255,255,255,0.2);
+  background-blend-mode:lighten;
 }
 
 /* 画面上部の「sabakatuアプリ」帯部分 */
@@ -60,7 +62,7 @@ a {
 
 /* FURIMAが選ばれる3つの理由部分 */
 .select-reason-contents {
-  padding: 5vh 15vw;
+  padding: 5vh 10vw;
 }
 
 .select-reason-contents>.title {
@@ -87,6 +89,7 @@ a {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding: 10px;
 }
 
 .reason-lists>.list {
@@ -98,10 +101,11 @@ a {
 }
 
 .list-pict {
-  margin-bottom: 20px;
-  height: 50%;
-  width: 80%;
+  margin-bottom: 15px;
+  height: 12vh;
+  width: 15vw;
   border-radius: 50px;
+  position: relative;
 }
 
 .reason-list-number {
@@ -114,15 +118,19 @@ a {
   text-align: center;
   line-height: 60px;
   background-color: #081213;
-  color: rgb(255, 255, 255);
+  color: rgba(246, 248, 247, 0.972);
   border-radius: 50px;
+  text-shadow:0 5px 5px black;
 }
 
 .reason-list-text {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 26px;
   line-height: 50px;
-  color: rgb(255, 255, 255);
+  color: rgb(137, 235, 108);
+  position: absolute;
+  top: 50px;
+  text-shadow:0 5px 5px black;
 }
 
 .reason-list-blue-text {
@@ -152,6 +160,7 @@ a {
   padding: 5vh 15vw;
   color: #fff;
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+  flex-wrap: wrap;
 }
 
 .ad-title {
@@ -160,15 +169,16 @@ a {
 }
 
 .ad-explain {
-  font-size: 2.5vh;
+  font-size: 5vh;
   line-height: 30px;
+  margin-bottom: 15px;
 }
 
 /* //画面中央の「会員数日本一位」帯部分 */
 
-/* FURIMAの特徴 */
+/* サバゲーに必要なもの */
 .feature-contents {
-  padding: 13vh 12vw;
+  padding: 11vh 8vw;
 }
 
 .feature-contents>.title {
@@ -195,6 +205,7 @@ a {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .feature-lists>.list {
@@ -203,6 +214,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 
 .feature-list-text {
@@ -210,13 +222,18 @@ a {
   font-size: 22px;
   line-height: 50px;
   color: rgb(248, 245, 245);
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
 }
 
 .feature-list-description {
-  font-size: 20px;
+  width: 19vw;
+  font-size: 22px;
   margin-top: 20px;
   color: rgb(18, 218, 245);
+  text-shadow:0 5px 5px black;
+  text-align: center;
 }
+
 
 /* //FURIMAの特徴 */
 
