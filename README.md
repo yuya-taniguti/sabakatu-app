@@ -38,13 +38,13 @@
 
 # DEMO
 ## トップページ
-　[![Image from Gyazo](https://i.gyazo.com/7ad9fecb89f1bf46aeb917b0dcdaea49.gif)](https://gyazo.com/7ad9fecb89f1bf46aeb917b0dcdaea49)
+　[![Image from Gyazo](https://i.gyazo.com/564d8220c2ca6585620a2acbfdbbff00.gif)](https://gyazo.com/564d8220c2ca6585620a2acbfdbbff00)
 ## 新規登録
-　[![Image from Gyazo](https://i.gyazo.com/0b11a1832370a30c9588f4bff2ae7aa1.gif)](https://gyazo.com/0b11a1832370a30c9588f4bff2ae7aa1)
+　[![Image from Gyazo](https://i.gyazo.com/7bfa9e9b8a89e4d442d94515ac8ef280.gif)](https://gyazo.com/7bfa9e9b8a89e4d442d94515ac8ef280
 ##　ログイン
-　[![Image from Gyazo](https://i.gyazo.com/53c7af8560cf5830c3e6091e3513c401.gif)](https://gyazo.com/53c7af8560cf5830c3e6091e3513c401)
+　[![Image from Gyazo](https://i.gyazo.com/bf90d583c3cef7a1b0d183e21c762fde.gif)](https://gyazo.com/bf90d583c3cef7a1b0d183e21c762fde)
 ##　ログアウト
-　[![Image from Gyazo](https://i.gyazo.com/b36b14a235609d5a883c45ccef964332.gif)](https://gyazo.com/b36b14a235609d5a883c45ccef964332)
+　[![Image from Gyazo](https://i.gyazo.com/8da449dfb1f965901f05a3ae9d539928.gif)](https://gyazo.com/8da449dfb1f965901f05a3ae9d539928)
 
 # 実装予定の機能
 - ユーザーの詳細機能
