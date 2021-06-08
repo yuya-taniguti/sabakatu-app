@@ -1,0 +1,45 @@
+<%# 商品の概要 %>
+<div class="-show">
+  <div class="item-box">
+    <h2 class="name">
+      <%= @user.nickname %>
+    </h2>
+    <div class="item-img-content">
+      <%= image_tag "ikon.png" ,class:"item-box-img" %>
+      <%# <%= image_tag profiles_url.png.variant(resize: '500x500'), class: 'profiles-image' if profiles_url.image.attached? %> %>
+    </div>
+
+    <table class="detail-table">
+      <tbody>
+        <tr>
+          <th class="detail-item">ニックネーム</th>
+          <td class="detail-value"><%= @user.nickname %></td>
+        </tr>
+        <tr>
+          <th class="detail-item">活動地域</th>
+          <td class="detail-value"><%= "活動地域" %></td>
+        </tr>
+        <tr>
+          <th class="detail-item">フィールド</th>
+          <td class="detail-value"><%= "フィールド" %></td>
+        </tr>
+        <tr>
+          <th class="detail-item">サバゲー歴</th>
+          <td class="detail-value"><%= "サバゲー歴" %></td>
+        </tr>
+        <tr>
+          <th class="detail-item">愛銃</th>
+          <td class="detail-value"><%= "愛銃" %></td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="sabage-btn">
+      <% if current_user.id == current_user.id %>
+        <%= link_to "登録", new_profile_path, method: :get, class: "item-new-btn" %>
+      <% else %>
+        <%= link_to "編集", edit_user_path, method: :get, class: "item-red-btn" %>
+        <%= link_to "削除", "#", method: :delete, class:"item-destroy" %>
+      <% end%>
+    </div>
+  </div>
+</div>
